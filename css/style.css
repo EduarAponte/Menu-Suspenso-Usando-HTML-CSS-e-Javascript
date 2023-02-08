@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,600&display=swap');
+
+:root {
+    --font: 'Poppins', sans-serif;
+    --corBrancoB: #f9f9f9;
+    --corBranco: #fff;
+    --corCinza: #555555;
+    --corAzul: #62baea;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-size: 62.5%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--corBrancoB);
+    font-size: 16px;
+}
+.title {
+    position: absolute;
+    color: var(--corCinza);
+    top: 4.5rem;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.dropdown {
+    position: relative;
+    /* margin-top: 100px; */
+    width: 30rem;
+    height: 5rem;
+}
+.dropdown::before {
+    content: '';
+    position: absolute;
+    top: -9.4rem;
+    right: 2.8rem;
+    width: 1.2rem;
+    height: 0.2rem;
+    background-color: var(--corCinza);
+    z-index: 10;
+    transform: rotate(40deg);
+    transition: 0.5s;
+}
+.dropdown.active::before {
+    right: 2rem;
+}
+.dropdown::after {
+    content: '';
+    position: absolute;
+    top: -9.4rem;
+    right: 2rem;
+    width: 1.2rem;
+    height: 0.2rem;
+    background-color: var(--corCinza);
+    z-index: 10;
+    transform: rotate(-40deg);
+    transition: 0.5s;
+}
+.dropdown.active::after {
+    right: 2.8rem;
+}
+.dropdown input {
+    position: absolute;
+    top: -11.9rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 1.2rem 2rem;
+    font-size: 1.6rem;
+    background-color: var(--corBranco);
+    box-shadow: 0 0.5rem 2rem rgba(0,0,0,0.05);
+    outline: none;
+    border: none;
+}
+.dropdown .option {
+    position: absolute;
+    top: -5.6rem;
+    width: 100%;
+    font-size: 2.5rem;
+    background-color: var(--corBranco);
+    box-shadow: 0 30rem 3rem rgba(0,0,0,0.05);
+    border-radius: 1rem;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.25s;
+    z-index: 10;
+}
+.dropdown.active .option {
+    visibility: visible;
+    opacity: 1;
+}
+.dropdown .option div {
+    padding: 1.2rem 2rem;
+    cursor: pointer;
+}
+.dropdown .option div:hover {
+    background-color: var(--corAzul);
+    color: var(--corBranco);
+}
+.footer {
+    bottom: 0;
+    padding-top: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.5rem;
+}
+.footer a {
+    text-decoration: none;
+    color: var(--corCinza);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.footer a:hover {
+    color: var(--corAzul);
+}

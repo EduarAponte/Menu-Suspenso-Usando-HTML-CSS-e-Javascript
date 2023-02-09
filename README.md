@@ -7,9 +7,9 @@ Projeto criado com o objetivo de colocar em prática os conhecimentos em HTML, C
 
 <div align="center">
 
-  <img src="https://user-images.githubusercontent.com/92584428/217640264-31a4565b-0e92-46b7-ac62-464ea05c75ce.png" style="margin: 0 8px;" width="20%" height="20%" />
-  <img src="https://user-images.githubusercontent.com/92584428/217640266-b44b50e9-fc77-4498-bc44-a3607f9ac51e.png" style="margin: 0 8px;" width="20%" height="20%" /> 
-  <img src="https://user-images.githubusercontent.com/92584428/217640257-e3effcf8-a021-45a6-a800-b2581f6391c5.png" style="margin: 0 8px;" width="20%" height="20%" /> 
+  <img src="https://user-images.githubusercontent.com/92584428/217640264-31a4565b-0e92-46b7-ac62-464ea05c75ce.png" style="margin: 0 8px;" width="25%" height="25%" />
+  <img src="https://user-images.githubusercontent.com/92584428/217640266-b44b50e9-fc77-4498-bc44-a3607f9ac51e.png" style="margin: 0 8px;" width="25%" height="25%" /> 
+  <img src="https://user-images.githubusercontent.com/92584428/217640257-e3effcf8-a021-45a6-a800-b2581f6391c5.png" style="margin: 0 8px;" width="25%" height="25%" /> 
   
 
 </div>
@@ -88,7 +88,7 @@ git clone https://github.com/EduarAponte/Menu-Suspenso-Usando-HTML-CSS-e-Javascr
 
 ### Assitir o tutorial
 
-<a href="https://www.youtube.com/channel/UCQmEVT0Cj2UsqLdjZJzQ-FA" target="_blank">
+<a href="https://www.youtu.be/598xAcAEhOE" target="_blank">
   <img src="assets/to_readme/play.png" 
   alt="Assistir Tutorial no YouTube" width="25%" height="25%" />
 </a>

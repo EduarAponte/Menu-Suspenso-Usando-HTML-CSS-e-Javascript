@@ -76,7 +76,7 @@ O principal objetivo do projeto é colocar em prática os conhecimentos em CSS e
 
 # Como Testar
 
-Você pode acessar o projeto [![Netlify Status](https://api.netlify.com/api/v1/badges/e417a718-c0c7-45e3-97a9-a7b79149be7f/deploy-status)](https://app.netlify.com/sites/eduar-aponte-menu-suspenso/deploy) ou [![GitHub](https://img.shields.io/badge/GitHub-4B0082?style=for-the-badge&logo=github&logoColor=white&style="border-radius:65px;)](https://github.com/EduarAponte/Menu-Suspenso-Usando-HTML-CSS-e-Javascript)
+Você pode acessar o projeto [![Netlify Status](https://api.netlify.com/api/v1/badges/e417a718-c0c7-45e3-97a9-a7b79149be7f/deploy-status)](https://eduar-aponte-menu-suspenso.netlify.app) ou [![GitHub](https://img.shields.io/badge/GitHub-4B0082?style=for-the-badge&logo=github&logoColor=white&style="border-radius:65px;)](https://github.com/EduarAponte/Menu-Suspenso-Usando-HTML-CSS-e-Javascript)
 
 Ou rodar na sua maquina.
 
